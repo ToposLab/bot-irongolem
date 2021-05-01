@@ -17,14 +17,14 @@ If the bot captures your interest and you feel like creating your own workflow p
 
   Create the process manifest of the workflow program. The program cannot call any APIs unless this function is called.  
 
-  The parameter time_limit should be in this format: (h,m,s). Since the program starts, it must be finished within *3600h+60m+s* seconds.
+  The parameter time_limit should be in this format: (h,m,s). Since the program starts, it must be finished within *3600\*h+60\*m+s* seconds.
 
 
 - *do(task_description: str, important_points: list) -> bool*:
 
   Require the user to do something according to task description as well as pay attention to some important points of this task.
 
-  The user can claim success by sending the message "done" or failure by sending "reject".
+  The user can claim success by sending the message "done" or failure by sending "reject", which sets the result *True* and *False* respectively.
 
   If the user choose to reject, the user has to explain what prevents himself/herself from finishing this task.
 
