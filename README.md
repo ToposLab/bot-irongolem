@@ -24,7 +24,7 @@ If the bot captures your interest and you feel like creating your own workflow p
 
   Require the user to do something according to task description as well as pay attention to some important points of this task.
 
-  The user can claim success by sending the message "done" or failure by sending "reject", which sets the result *True* and *False* respectively.
+  The user can claim success by sending the message "done" or failure by sending "reject", which sets the result to *True* and *False* respectively.
 
   If the user choose to reject, the user has to explain what prevents himself/herself from finishing this task.
 
