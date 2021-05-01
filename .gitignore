@@ -1,0 +1,4 @@
+.idea
+.vscode
+data/
+sdk/__pycache__/
