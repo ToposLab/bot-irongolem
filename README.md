@@ -13,14 +13,14 @@ If the bot captures your interest and you feel like creating your own workflow p
 
 **Basic Functions**
 
-- *start(message: str, time_limit: tuple = None)*
+- *start(message: str, time_limit: tuple = None)*:
 
   Create the process manifest of the workflow program. The program cannot call any APIs unless this function is called.  
 
   The parameter time_limit should be in this format: (h,m,s). Since the program starts, it must be finished within *3600h+60m+s* seconds.
 
 
-- *do(task_description: str, important_points: list) -> bool*
+- *do(task_description: str, important_points: list) -> bool*:
 
   Require the user to do something according to task description as well as pay attention to some important points of this task.
 
@@ -31,6 +31,17 @@ If the bot captures your interest and you feel like creating your own workflow p
   When the process of the workflow program ends, the bot will render a summary of all rejections in order to help the user improve his/her program.
 
 
-- *say(message: str)*
+- *say(message: str)*:
 
   Send a message to the user. 
+
+
+- *ask(question: str, choices: tuple=("yes","no")) -> str*:
+
+  Ask the user to select one of the answer choices for the question provided. The result will be the choice the user made.
+  
+  
+- *input(message: str) -> str*:
+
+  Send a message and wait for the user's reply. The reply will be the result of this method.
+
