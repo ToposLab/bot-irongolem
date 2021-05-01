@@ -26,7 +26,7 @@ If the bot captures your interest and you feel like creating your own workflow p
 
   The user can claim success by sending the message "done" or failure by sending "reject".
 
-  If the user choose to reject, the user has to explain what prevented himself/herself from finishing this task.
+  If the user choose to reject, the user has to explain what prevents himself/herself from finishing this task.
 
   When the process of the workflow program ends, the bot will render a summary of all rejections in order to help the user improve his/her program.
 
