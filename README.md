@@ -9,12 +9,12 @@ A mini programmable workflow system based on the app Topos, which can help users
 ## Get started
 The bot has already been deployed on the server of Topos. Therefore, just send the command "ls" to the bot on the app Topos to see what he can do for you. If you have not downloaded the app Topos yet, visit the website [Topos World](http://topos.world/) for installation.
 
-If the bot captures your interest and you feel like creating your own workflow programs, access [IronGolem Workflow Online Manager](http://122.51.74.154:2333/). Since all workflow programs are written in Python, you should have some basic grammatical knowledge of this language. Several API functions are provided for the sake of communication. The following reveals the usage of them:
-
 If you want to deploy your own IronGolem, please follow the procedure:
 1. Clone the repository
 2. Edit the file config.py to add your own account information in.
 3. Run main.py
+
+If the bot captures your interest and you feel like creating your own workflow programs, access [IronGolem Workflow Online Manager](http://122.51.74.154:2333/). Since all workflow programs are written in Python, you should have some basic grammatical knowledge of this language. Several API functions are provided for the sake of communication. The following reveals the usage of them:
 
 **Basic Functions**
 
