@@ -11,6 +11,7 @@ import datetime
 from enum import Enum
 
 import sdk.topos as topos
+from config import countryCode, mobile, password
 '''全局变量'''
 PROGRAM_LIST = {}
 LEGAL_WORDS = ['start', 'stop', 'done', 'reject']
@@ -19,9 +20,6 @@ sessions = {}  # 会话池，用于对每个线程登记造册。键名:用户ID
 inbox = []  # 收件箱，元素结构：tuple (用户ID, 消息内容)
 to_send = []  # 发件箱，元素结构：tuple (用户ID, 消息内容)
 lock = threading.Lock()
-countryCode = 1
-mobile = "1270010000"
-password = "ToposBot5678"
 
 '''加载应用列表'''
 def reload():
